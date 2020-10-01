@@ -19,11 +19,12 @@ plt.rcParams['figure.figsize'] = (10, 20)
 plt.style.use('ggplot')
 
 # Primero especificamos un patrón del archivo y lo pasamos como parámetro en la función glob
-os.chdir("C:\\DatosChinos\\ransomware")
+#os.chdir("C:\\DatosChinos\\ransomware")
+os.chdir("C:\\Users\\dieku\\Documents\\GitHub\\cyberseguridad-code\\ransomware_supervised")
 os.getcwd()
 csv_files = glob.glob('*.csv')
 # Mostrar el archivo csv_files, el cual es una lista de nombres
-print(csv_files)
+print(csv_files)#No es un archivo son varios ? 
 
 list_data = []
   
